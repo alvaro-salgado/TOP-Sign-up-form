@@ -1,5 +1,57 @@
-
-
-.container{
-    background: whitesmoke;
+.container {
+  background: whitesmoke;
+  display: flex;
 }
+
+.container-image-left {
+  background: url("../img/background.webp");
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-logo {
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+}
+
+.img-logo {
+  width: 5rem;
+}
+
+.text-logo{
+    font-size: 5rem;
+    color: whitesmoke;
+}
+
+.container-content{
+    height: 100vh;
+    padding: 1% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container-header{
+    font-size: 1.5rem;
+}
+
+.container-form{
+    background: white;
+    height: 30vh;
+    padding: 5% 5%
+}
+
+.contact-form{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
