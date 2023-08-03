@@ -80,6 +80,14 @@ input {
   height: 1.8rem;
 }
 
+input:invalid{
+    border-color: red;
+}
+
+input:valid{
+    border-color: green;
+}
+
 .container-bottom {
   margin-top: 5%;
 }
